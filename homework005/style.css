@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 100px 401px 100px 405px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 291px;
+    gap: 90px;
+}
+
+.item__head {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.item__img_head {
+    margin-bottom: 25px;
+}
+
+.head__title {
+    margin-bottom: 17px;
+}
+
+.head__text {
+    margin-bottom: 25px;
+    width: 310px;
+    height: 42px;
+}
+
+.top {
+    padding-top: 92px;
+}
+
+.title {
+    margin-left: 670px;
+    margin-bottom: 19px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__link {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.main__text {
+    width: 682px;
+    height: 48px;
+    margin-left: 619px;
+    margin-bottom: 70px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.top__content {
+    margin-left: 368px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 549px;
+    gap: 30px;
+}
+
+.item__top {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.top__title {
+    margin-bottom: 22px;
+}
+
+.top__text {
+    width: 310px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.heading {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__text {
+    color: #AAA;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.item_button {
+    width: 150px;
+    height: 50px;
+    margin-top: 39px;
+    margin-left: 100px;
+    background-color: #F25822;
+    border-radius: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.first_top_heading {
+    margin-left: 83px;
+}
+
+.second_top_heading {
+    margin-left: 81px;
+}
+
+.third_top_heading {
+    margin-left: 92px;
+}
