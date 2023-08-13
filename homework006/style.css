@@ -18,9 +18,20 @@ body {
     justify-content: space-between;
 }
 
+
+.btn {
+    background-color: #222;
+    border: #222;
+}
+
 .search {
     display: flex;
     gap: 41px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px
 }
 
 .about {
@@ -201,6 +212,8 @@ body {
     height: 48px;
     border-color: #FF6A6A;
     color: #F26376;
+    border-style: solid;
+    background-color: white;
     font-family: Lato;
     font-size: 16px;
     font-style: normal;
