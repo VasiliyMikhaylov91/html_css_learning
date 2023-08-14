@@ -42,7 +42,7 @@
 
 .main__heading {
     display: grid;
-    grid-template-columns: 12px 1fr;
+    grid-template-columns: 12px 377px;
     grid-template-rows: 92px;
     gap: 16px;
 }
@@ -90,6 +90,10 @@
 
 .item {
     position: relative;
+}
+
+.item__image__mobile {
+    display: none;
 }
 
 .menu__text {
@@ -315,5 +319,75 @@
         grid-template-rows: repeat(3, 581px);
         row-gap: 17px;
         column-gap: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hidden {
+        display: none;
+        width: 0;
+    }
+
+    .header__container {
+        padding: 18px 26px 18px 18px;
+    }
+
+    .main__heading {
+        padding-top: 152px;
+        padding-bottom: 150px;
+    }
+
+    .item4 {
+        grid-column: 1/1;
+    }
+
+    .catalog__menu {
+        padding-top: 64px;
+        display: grid;
+        grid-template-columns: 343px;
+        grid-template-rows: repeat(3, 248px) 111px;
+        column-gap: 0;
+        row-gap: 32px;
+    }
+
+    .item__image {
+        width: 343px;
+    }
+
+    .item__image__big {
+        width: 343px;
+    }
+
+    .item__image__mobile {
+        display: block;
+    }
+
+    .menu__text {
+        top: 98px;
+    }
+
+    .for_woman {
+        left: 94px;
+    }
+
+    .for_man {
+        left: 125px;
+    }
+
+    .for_kids {
+        left: 90.18px;
+    }
+
+    .accesories {
+        top: 30px;
+        left: 92px;
+    }
+
+    .content {
+        padding-bottom: 40.61px;
+        grid-template-columns: 359px;
+        grid-template-rows: repeat(6, 581px);
+        row-gap: 16px;
+        column-gap: 0;
     }
 }
