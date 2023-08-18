@@ -268,6 +268,17 @@
     width: 300px;
 }
 
+.contacts {
+    display: flex;
+    background-image: url("img/contacts background.png");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 448px;
+    width: auto;
+}
+
+
 
 @media (max-width: 1024px) {
 
